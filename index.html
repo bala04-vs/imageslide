@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="background">
+   
+    <div class="slider-container">
+        <!-- Image Slider -->
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank"><img src="./assests/taj.webp" alt="Image 1"></a></div>
+                <div class="slide"><a href="https://en.wikipedia.org/wiki/Red_Fort"><img src="./assests/jpg.webp" alt="Image 2"></a></div>
+                <div class="slide"><a  href="https://en.wikipedia.org/wiki/Charminar"><img src="./assests/1acf450bc6727e03dff564a82545a5be.jpg" alt="Image 3"></a></div>
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+
+        <!-- Navigation controls -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
